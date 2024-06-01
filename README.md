@@ -29,13 +29,8 @@ Train the method on LLFF dataset with 3 views
 ``` 
 python train.py  --source_path dataset/nerf_llff_data/horns --model_path output/horns --eval  --n_views 3 --sample_pseudo_interval 1
 ``` 
-
-
-Train the method on MipNeRF-360 dataset with 24 views
-``` 
-python train.py  --source_path dataset/mipnerf360/garden --model_path output/garden  --eval  --n_views 24 --depth_pseudo_weight 0.03  
-``` 
-
+## Results 
+In folder 'results/fern', we provide the reconstructed point cloud and tensorboard record for the scene 'fern' from LLFF dataset.
 
 ## Rendering
 Run the following script to render the images.  
