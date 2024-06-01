@@ -1,0 +1,9 @@
+*.pyc
+.vscode
+output
+build
+submodules/diff-gaussian-rasterization-freqConstrain/*.egg-info
+submodules/diff-gaussian-rasterization-freqConstrain/dist
+.idea
+scripts
+dataset
